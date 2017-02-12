@@ -66,7 +66,7 @@
     }
     else {
         NSString *errorText = @"TouchID unavailable for inknown reason";
-        NSError *error = [NSError errorWithDomain:SFErrorDomain
+        NSError *error = [NSError errorWithDomain:@"TouchID domain"
                                              code:kTIDMErrorUnknown
                                          userInfo:@{errorText : NSLocalizedDescriptionKey}];
         [self sendFailWithError:error];
@@ -92,7 +92,7 @@
     }
     if (!isTouchIDAllowed) {
         NSString *errorText = [NSString stringWithFormat:@"You have blocked touchID with %@", NSStringFromSelector(@selector(willTryToPassWithTouchIDManager:))];
-        NSError *error = [NSError errorWithDomain:SFErrorDomain
+        NSError *error = [NSError errorWithDomain:@"TouchID domain"
                                              code:kTIDMErrorBlockedWithStartPassing
                                          userInfo:@{errorText : NSLocalizedDescriptionKey}];
         [self sendFailWithError:error];
