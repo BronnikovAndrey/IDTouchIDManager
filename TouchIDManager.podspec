@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Description for our dependency'
 
-  s.homepage         = 'https://github.com/BronnikovAndrey/IDTouchIDManager'
+  s.homepage         = 'https://BronnikovAndrey@github.com/BronnikovAndrey/IDTouchIDManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BronnikovAndrey' => 'bronnikov@improveitgroup.com' }
-  s.source           = { :git => 'https://github.com/BronnikovAndrey/IDTouchIDManager.git', :tag => '0.0.2' }
+  s.source           = { :git => 'https://BronnikovAndrey@github.com/BronnikovAndrey/IDTouchIDManager.git', :tag => '0.0.2' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
