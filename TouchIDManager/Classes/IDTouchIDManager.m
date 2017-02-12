@@ -7,6 +7,7 @@
 //
 
 #import "IDTouchIDManager.h"
+#import <UIKit/UIKit.h>
 #import <LocalAuthentication/LocalAuthentication.h>
 
 @interface IDTouchIDManager ()
